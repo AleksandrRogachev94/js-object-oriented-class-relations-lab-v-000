@@ -35,10 +35,10 @@ class Trip{
     store.trips.push(this)
   }
   passenger(){
-    return store.passengers.filter(passenger => {passenger.id === this.passengerId})
+    return store.passengers.filter(passenger => passenger.id === this.passengerId)
   }
   driver(){
-    return store.drivers.filter(driver => {driver.id === this.driverId})
+    return store.drivers.filter(driver => driver.id === this.driverId)
   }
 }
 
