@@ -30,7 +30,7 @@ class Passenger{
 }
 
 class Trip{
-  constructor(passenger, driver){
+  constructor(driver, passenger){
     this.passengerId = passenger && passenger.id;
     this.driverId = driver && driver.id;
     this.id = ++tripId
